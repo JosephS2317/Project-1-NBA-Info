@@ -1,0 +1,304 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "abbreviation": "ATL",
+      "city": "Atlanta",
+      "conference": "East",
+      "division": "Southeast",
+      "full_name": "Atlanta Hawks",
+      "name": "Hawks",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Atlanta_Hawks_logo.svg/1200px-Atlanta_Hawks_logo.svg.png"
+    },
+    {
+      "id": 2,
+      "abbreviation": "BOS",
+      "city": "Boston",
+      "conference": "East",
+      "division": "Atlantic",
+      "full_name": "Boston Celtics",
+      "name": "Celtics",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/800px-Boston_Celtics.svg.png"
+    },
+    {
+      "id": 3,
+      "abbreviation": "BKN",
+      "city": "Brooklyn",
+      "conference": "East",
+      "division": "Atlantic",
+      "full_name": "Brooklyn Nets",
+      "name": "Nets",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/1200px-Brooklyn_Nets_newlogo.svg.png"
+    },
+    {
+      "id": 4,
+      "abbreviation": "CHA",
+      "city": "Charlotte",
+      "conference": "East",
+      "division": "Southeast",
+      "full_name": "Charlotte Hornets",
+      "name": "Hornets",
+      "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/cha.png"
+    },
+    {
+      "id": 5,
+      "abbreviation": "CHI",
+      "city": "Chicago",
+      "conference": "East",
+      "division": "Central",
+      "full_name": "Chicago Bulls",
+      "name": "Bulls",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Chicago_Bulls_logo.svg/1200px-Chicago_Bulls_logo.svg.png"
+    },
+    {
+      "id": 6,
+      "abbreviation": "CLE",
+      "city": "Cleveland",
+      "conference": "East",
+      "division": "Central",
+      "full_name": "Cleveland Cavaliers",
+      "name": "Cavaliers",
+      "logo": "https://www.si.com/.image/c_fit%2Ccs_srgb%2Cq_auto:good/MTkwMjY1MjQ0MTA1MzE5NTc3/cleveland-cavaliers-logo.png"
+    },
+    {
+      "id": 7,
+      "abbreviation": "DAL",
+      "city": "Dallas",
+      "conference": "West",
+      "division": "Southwest",
+      "full_name": "Dallas Mavericks",
+      "name": "Mavericks",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Dallas_Mavericks_logo.svg/800px-Dallas_Mavericks_logo.svg.png"
+    },
+    {
+      "id": 8,
+      "abbreviation": "DEN",
+      "city": "Denver",
+      "conference": "West",
+      "division": "Northwest",
+      "full_name": "Denver Nuggets",
+      "name": "Nuggets",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/1200px-Denver_Nuggets.svg.png"
+    },
+    {
+      "id": 9,
+      "abbreviation": "DET",
+      "city": "Detroit",
+      "conference": "East",
+      "division": "Central",
+      "full_name": "Detroit Pistons",
+      "name": "Pistons",
+      "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/det.png"
+    },
+    {
+      "id": 10,
+      "abbreviation": "GSW",
+      "city": "Golden State",
+      "conference": "West",
+      "division": "Pacific",
+      "full_name": "Golden State Warriors",
+      "name": "Warriors",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/800px-Golden_State_Warriors_logo.svg.png"
+    },
+    {
+      "id": 11,
+      "abbreviation": "HOU",
+      "city": "Houston",
+      "conference": "West",
+      "division": "Southwest",
+      "full_name": "Houston Rockets",
+      "name": "Rockets",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Houston_Rockets.svg/640px-Houston_Rockets.svg.png"
+    },
+    {
+      "id": 12,
+      "abbreviation": "IND",
+      "city": "Indiana",
+      "conference": "East",
+      "division": "Central",
+      "full_name": "Indiana Pacers",
+      "name": "Pacers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/ind.png"
+    },
+    {
+      "id": 13,
+      "abbreviation": "LAC",
+      "city": "LA",
+      "conference": "West",
+      "division": "Pacific",
+      "full_name": "LA Clippers",
+      "name": "Clippers",
+      "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/lac.png"
+    },
+    {
+      "id": 14,
+      "abbreviation": "LAL",
+      "city": "Los Angeles",
+      "conference": "West",
+      "division": "Pacific",
+      "full_name": "Los Angeles Lakers",
+      "name": "Lakers",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/1200px-Los_Angeles_Lakers_logo.svg.png"
+    },
+    {
+      "id": 15,
+      "abbreviation": "MEM",
+      "city": "Memphis",
+      "conference": "West",
+      "division": "Southwest",
+      "full_name": "Memphis Grizzlies",
+      "name": "Grizzlies",
+      "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/mem.png"
+    },
+    {
+      "id": 16,
+      "abbreviation": "MIA",
+      "city": "Miami",
+      "conference": "East",
+      "division": "Southeast",
+      "full_name": "Miami Heat",
+      "name": "Heat",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/04/Miami-Heat-logo.png"
+    },
+    {
+      "id": 17,
+      "abbreviation": "MIL",
+      "city": "Milwaukee",
+      "conference": "East",
+      "division": "Central",
+      "full_name": "Milwaukee Bucks",
+      "name": "Bucks",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Milwaukee_Bucks_logo.svg/1200px-Milwaukee_Bucks_logo.svg.png"
+    },
+    {
+      "id": 18,
+      "abbreviation": "MIN",
+      "city": "Minnesota",
+      "conference": "West",
+      "division": "Northwest",
+      "full_name": "Minnesota Timberwolves",
+      "name": "Timberwolves",
+      "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/min.png"
+    },
+    {
+      "id": 19,
+      "abbreviation": "NOP",
+      "city": "New Orleans",
+      "conference": "West",
+      "division": "Southwest",
+      "full_name": "New Orleans Pelicans",
+      "name": "Pelicans",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0d/New_Orleans_Pelicans_logo.svg"
+    },
+    {
+      "id": 20,
+      "abbreviation": "NYK",
+      "city": "New York",
+      "conference": "East",
+      "division": "Atlantic",
+      "full_name": "New York Knicks",
+      "name": "Knicks",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/New_York_Knicks_logo.svg/1200px-New_York_Knicks_logo.svg.png"
+    },
+    {
+      "id": 21,
+      "abbreviation": "OKC",
+      "city": "Oklahoma City",
+      "conference": "West",
+      "division": "Northwest",
+      "full_name": "Oklahoma City Thunder",
+      "name": "Thunder",
+      "logo": "https://1000logos.net/wp-content/uploads/2018/06/Oklahoma-City-Thunder-Logo.png"
+    },
+    {
+      "id": 22,
+      "abbreviation": "ORL",
+      "city": "Orlando",
+      "conference": "East",
+      "division": "Southeast",
+      "full_name": "Orlando Magic",
+      "name": "Magic",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Orlando_Magic_logo.svg/1200px-Orlando_Magic_logo.svg.png"
+    },
+    {
+      "id": 23,
+      "abbreviation": "PHI",
+      "city": "Philadelphia",
+      "conference": "East",
+      "division": "Atlantic",
+      "full_name": "Philadelphia 76ers",
+      "name": "76ers",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Philadelphia_76ers_logo.svg/1200px-Philadelphia_76ers_logo.svg.png"
+    },
+    {
+      "id": 24,
+      "abbreviation": "PHX",
+      "city": "Phoenix",
+      "conference": "West",
+      "division": "Pacific",
+      "full_name": "Phoenix Suns",
+      "name": "Suns",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Phoenix_Suns_logo.svg/1200px-Phoenix_Suns_logo.svg.png"
+    },
+    {
+      "id": 25,
+      "abbreviation": "POR",
+      "city": "Portland",
+      "conference": "West",
+      "division": "Northwest",
+      "full_name": "Portland Trail Blazers",
+      "name": "Trail Blazers",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Portland_Trail_Blazers_logo.svg/1200px-Portland_Trail_Blazers_logo.svg.png"
+    },
+    {
+      "id": 26,
+      "abbreviation": "SAC",
+      "city": "Sacramento",
+      "conference": "West",
+      "division": "Pacific",
+      "full_name": "Sacramento Kings",
+      "name": "Kings",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/sacramento-kings-logo-transparent.png"
+    },
+    {
+      "id": 27,
+      "abbreviation": "SAS",
+      "city": "San Antonio",
+      "conference": "West",
+      "division": "Southwest",
+      "full_name": "San Antonio Spurs",
+      "name": "Spurs",
+      "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/sa.png"
+    },
+    {
+      "id": 28,
+      "abbreviation": "TOR",
+      "city": "Toronto",
+      "conference": "East",
+      "division": "Atlantic",
+      "full_name": "Toronto Raptors",
+      "name": "Raptors",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Toronto_Raptors_logo.svg/1200px-Toronto_Raptors_logo.svg.png"
+    },
+    {
+      "id": 29,
+      "abbreviation": "UTA",
+      "city": "Utah",
+      "conference": "West",
+      "division": "Northwest",
+      "full_name": "Utah Jazz",
+      "name": "Jazz",
+      "logo": "https://cdn.inspireuplift.com/uploads/images/seller_products/1685342881_jazz2.png"
+    },
+    {
+      "id": 30,
+      "abbreviation": "WAS",
+      "city": "Washington",
+      "conference": "East",
+      "division": "Southeast",
+      "full_name": "Washington Wizards",
+      "name": "Wizards",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Washington_Wizards_logo.svg/1200px-Washington_Wizards_logo.svg.png"
+    }
+  ]
+}
