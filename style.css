@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/basketball-pattern-college-mascot-designs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#basketball-header {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, yellow, orange);
+    height: 100%;
+    width: 100%;
+  }
+#basketball-header img {
+    height: 7rem;
+    width: auto;
+  }
+.search-team {
+    display: block;
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+}
+.card{
+  text-align: center;
+  background-image: url("https://t4.ftcdn.net/jpg/03/08/45/23/360_F_308452357_MfTIZOjhzi2RagGF4bjSMHZwp5OZ0n3C.jpg");
+  background-size:contain;
+  width: 600px;
+  height: 400px;
+  perspective: 1000px;
+  display: inline-grid;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-color: black;
+  border-radius: .3rem;
+  line-height: .02;
+  position:relative;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.logo{
+  justify-self: center;
+  height: 18rem;
+  width: auto;
+}
