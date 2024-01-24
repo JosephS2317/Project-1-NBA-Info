@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch((error) => {
         console.error(error)
       })
-      teamInput.reset()
+
+      
   }
 function createTeamCard(team) {
     
