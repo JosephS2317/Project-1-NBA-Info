@@ -13,13 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
       .then((res) => res.json())
       .then((teams) => {
         const foundTeams = teams.filter((team) => team.name.toLowerCase()===(teamInput.value.toLowerCase()))
-        foundTeams.forEach((team) => {
+        foundTeams.find((team) => {
           createTeamCard(team)
         })
       })
       .catch((error) => {
         console.error(error)
       })
+      teamInput.reset()
   }
 function createTeamCard(team) {
     
