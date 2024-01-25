@@ -50,9 +50,16 @@ body {
 }
 .delete{
   display: inline-block;
-  background-color: #ffffff;
+  background-color: #0f0f0f;
+  color: white;
   text-align: center;
+  position:absolute;
+    bottom:0;
+    right:0;
 }
 .delete:hover{
-  color : gray;
+  background-color : gray;
+  color : black;
+
+
 }
