@@ -44,15 +44,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const originalCard = card.innerHTML
   
     card.addEventListener('mouseover', function() {
-      fetch(teamDataUrl)
-        .then((res) => res.json())
-        .then((teams) => {
+      
           card.innerHTML = `
             <h2>${team.full_name}</h2>
             <h2>Division: ${team.division}</h2>
             <h2>Conference: ${team.conference}</h2>
           `
-        })
+        
     })
   
     card.addEventListener('mouseleave', function() {
