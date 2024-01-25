@@ -48,3 +48,11 @@ body {
   height: 18rem;
   width: auto;
 }
+.delete{
+  display: inline-block;
+  background-color: #ffffff;
+  text-align: center;
+}
+.delete:hover{
+  color : gray;
+}
