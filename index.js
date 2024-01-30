@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     cardDelete.addEventListener('click', () => {
       currentTeams.innerHTML = ''
+      teamInput.innterHTML = "Enter team name..."
     })
   
     currentTeams.append(card, cardDelete)
