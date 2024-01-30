@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
    
     card.append(city, name, logo)
     const originalCard = card.innerHTML
+    teamInput.value = ''
   
     card.addEventListener('mouseover', function() {
       
@@ -59,7 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
   
     cardDelete.addEventListener('click', () => {
       currentTeams.innerHTML = ''
-      teamInput.value = ''
     })
   
     currentTeams.append(card, cardDelete)
