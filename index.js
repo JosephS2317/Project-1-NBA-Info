@@ -38,9 +38,12 @@ document.addEventListener('DOMContentLoaded', () => {
   
     const city = document.createElement('h2')
     city.textContent = team.city
+
+    const hoverPrompt = document.createElement('footer')
+    hoverPrompt.textContent = 'Hover Mouse for additional info'
   
    
-    card.append(city, name, logo)
+    card.append(city, name, logo, hoverPrompt)
     const originalCard = card.innerHTML
     teamInput.value = ''
   
