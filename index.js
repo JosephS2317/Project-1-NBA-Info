@@ -51,7 +51,9 @@ document.addEventListener('DOMContentLoaded', () => {
     card.append(city, name, logo, hoverPrompt)
     const originalCard = card.innerHTML
     teamInput.value = ''
-  
+
+   // two additional event listeners to manipulate the dom based on your mouses interaction with card being created
+   // when mouse is hovered over the card it displays different information then when taken off it goes back to its original content.
     card.addEventListener('mouseover', function() {
       
           card.innerHTML = `
@@ -65,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     card.addEventListener('mouseleave', function() {
       card.innerHTML = originalCard
     })
-  
+  // delete button that is created with the card, this allows for the user to delete the card when done reading then search for a new team.
     cardDelete.addEventListener('click', () => {
       currentTeams.innerHTML = ''
     })
