@@ -27,7 +27,7 @@ body {
     background-color: white;
 }
 #searchInput {
-  max-width: 170px;
+  width: 170px;
 }
 .card{
   text-align: center;
