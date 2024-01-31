@@ -26,6 +26,9 @@ body {
     border-radius: 5px;
     background-color: white;
 }
+#searchInput {
+  max-width: 170px;
+}
 .card{
   text-align: center;
   background-image: url("https://t4.ftcdn.net/jpg/03/08/45/23/360_F_308452357_MfTIZOjhzi2RagGF4bjSMHZwp5OZ0n3C.jpg");
