@@ -1,8 +1,9 @@
+//First event listener Make sure HTML page elements are loaded before any JS is run
 document.addEventListener('DOMContentLoaded', () => {
     const searchButton = document.getElementById('searchButton')
     searchButton.addEventListener('click', searchTeams)
 })
-  
+  // declaring my variables on the global scope so no errors arrise when calling to them
   const teamSearch = document.getElementsByClassName('search-team')
   const teamDataUrl = "http://localhost:3000/data"
   const currentTeams = document.getElementById('current-teams')
@@ -10,7 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardDelete = document.createElement('button')
   cardDelete.textContent = 'Clear Teams'
   cardDelete.className = 'delete'
-  
+
+// creating my function which is called back in my original click even listener for the search button
+// function fetching the data in my db.json, converting to readable json, then using iterators to find the data im looking for
   function searchTeams() {
     fetch(teamDataUrl)
       .then((res) => res.json())
@@ -24,7 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error(error)
       })
   }
-
+// function which is called back by my searchTeams function
+// this function uses the data that we got through our iterators and creates the "card" to display that information on and appends it to our html element 'currentTeams'
+// lastly once the function is complete it ends by clearing out the search bar by changing the inner html of the searchInput to blank
   function createTeamCard(team) {
     const card = document.createElement('div')
     card.className = 'card'
