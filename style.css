@@ -3,6 +3,7 @@ body {
     background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/basketball-pattern-college-mascot-designs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
 }
 #basketball-header {
     display: flex;
