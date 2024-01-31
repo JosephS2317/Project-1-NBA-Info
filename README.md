@@ -2,7 +2,7 @@
 
 NBA Team search is a one page application where the user can type in a team name in the search bar. This triggers a function that filters using (.filter)the team you search for then creates a card using (.find(team)). So whatever team matches the filter the createTeamCard() will trigger creating that card.
 
-This can display any info about the team that the API offers. Using two even liseners ('mouseover' and 'mouseleave') I have created a functions that will display different info depending on if your mouse is hovering over the card or not. There is also a button created that can be clicked to clear out the cards and allow the user to search for another card.
+This can display any info about the team that the API (db.json) offers. Using two even liseners ('mouseover' and 'mouseleave') I have created a functions that will display different info depending on if your mouse is hovering over the card or not. There is also a button created that can be clicked to clear out the cards and allow the user to search for another card.
 
 There are four event listeners ('DOMCONTENTLOADED','click', 'mouseover', 'mouseleave') that are triggering all the functionality of the page based on the users mouse interacting with the page.
 
